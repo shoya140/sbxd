@@ -1,26 +1,123 @@
-html,
-body {
+$surface-color: #ffffff;
+$text-color: #1e2529;
+$brand-color: #577def;
+
+html {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 18px;
+  background-color: $surface-color;
+  color: $text-color;
+  word-break: break-all;
+}
+
+body {
+  padding: 0;
+  margin: 0;
 }
 
 a {
-  color: inherit;
+  color: $brand-color;
+
+  &:hover {
+    @media (hover: hover) {
+      text-decoration: underline;
+      opacity: 0.8;
+    }
+  }
+}
+
+h2 {
+  margin-bottom: 0.3em;
+}
+
+code {
+  font-size: 0.8em;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.diary {
+  margin-bottom: 3em;
+}
+
+.date-link {
+  color: $text-color;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.sbx-p {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+
+  &:before {
+    content: '・';
+    position: absolute;
+    margin-left: -1em;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.indent-0 {
+  margin-left: 0em;
+}
+
+.indent-1 {
+  margin-left: 1em;
+}
+
+.indent-2 {
+  margin-left: 2em;
+}
+
+.indent-3 {
+  margin-left: 3em;
+}
+
+.indent-4 {
+  margin-left: 4em;
+}
+
+.indent-5 {
+  margin-left: 5em;
+}
+
+.indent-6 {
+  margin-left: 6em;
+}
+
+.indent-7 {
+  margin-left: 7em;
+}
+
+.indent-8 {
+  margin-left: 8em;
+}
+
+.indent-9 {
+  margin-left: 9em;
+}
+
+.sbx-link {
+  text-decoration: none;
+}
+
+.sbx-icon {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+.sbx-image {
+  max-height: 230px;
+  max-width: 230px;
+}
+
+.sbx-quote {
+  background-color: #eeeeee;
+  font-style: italic;
 }
