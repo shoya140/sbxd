@@ -12,11 +12,14 @@ const sb = (node, lineIndex, nodeIndex) => {
       return <span key={`node-${lineIndex}-${nodeIndex}`}>{node.text}</span>
     case 'image':
       return (
-        <img
+        <a
           key={`node-${lineIndex}-${nodeIndex}`}
-          className="sbx-image"
-          src={node.src}
-        />
+          href={node.src}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="sbx-image" src={node.src} />
+        </a>
       )
     case 'link':
       switch (node.pathType) {
@@ -26,6 +29,8 @@ const sb = (node, lineIndex, nodeIndex) => {
               key={`node-${lineIndex}-${nodeIndex}`}
               className="sbx-link"
               href={`https://scrapbox.io/${projectId}/${node.href}`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {node.href}
             </a>
@@ -35,34 +40,53 @@ const sb = (node, lineIndex, nodeIndex) => {
             <a
               key={`node-${lineIndex}-${nodeIndex}`}
               href={`https://scrapbox.io${node.href}`}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {node.href}
             </a>
           )
         case 'absolute':
           return (
-            <a key={`node-${lineIndex}-${nodeIndex}`} href={node.href}>
+            <a
+              key={`node-${lineIndex}-${nodeIndex}`}
+              href={node.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {node.content ? node.content : node.raw}
             </a>
           )
         default:
-          return (
-            <a key={`node-${lineIndex}-${nodeIndex}`} href="">
-              {node.href}
-            </a>
-          )
+          return <span>unknown</span>
       }
     case 'hashTag':
       return (
         <a
           key={`node-${lineIndex}-${nodeIndex}`}
           href={`https://scrapbox.io/${projectId}/${node.href}`}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {node.raw}
         </a>
       )
     case 'icon':
       switch (node.pathType) {
+        case 'relative':
+          return (
+            <a
+              key={`node-${lineIndex}-${nodeIndex}`}
+              href={`https://scrapbox.io/${projectId}/${node.path}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="sbx-icon"
+                src={`https://scrapbox.io/api/pages/${projectId}/${node.path}/icon`}
+              />
+            </a>
+          )
         case 'root':
           return (
             <img
@@ -72,13 +96,7 @@ const sb = (node, lineIndex, nodeIndex) => {
             />
           )
         default:
-          return (
-            <img
-              key={`node-${lineIndex}-${nodeIndex}`}
-              className="sbx-icon"
-              src={`https://scrapbox.io/api/pages/${projectId}/${node.path}/icon`}
-            />
-          )
+          return <span>unknown</span>
       }
     case 'code':
       return (

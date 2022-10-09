@@ -53,8 +53,8 @@ code {
 }
 
 .sbx-p {
-  margin-top: 0.1em;
-  margin-bottom: 0.1em;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
 
   &:before {
     content: '・';
@@ -108,8 +108,9 @@ code {
 }
 
 .sbx-icon {
-  max-width: 16px;
-  max-height: 16px;
+  max-width: 1em;
+  max-height: 1em;
+  margin-bottom: -2px;
 }
 
 .sbx-image {
