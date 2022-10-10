@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/fetch-sbx-data.js && next build && next export",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
     "fmt": "prettier --write 'scripts/**/*.js' 'pages/**/*.js' 'components/**/*.js' 'lib/**/*.js' 'styles/**/*.scss'",
+    "fetch": "node scripts/fetch-sbx-data.js",
     "fetch-all": "node scripts/delete-all-sbx-data.js && node scripts/fetch-all-sbx-data.js",
     "delete-all": "node scripts/delete-all-sbx-data.js"
   },
