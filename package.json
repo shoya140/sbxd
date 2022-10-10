@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/fetch-sbx-data.js && next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "fmt": "prettier --write 'pages/**/*.js' 'styles/**/*.scss'"
+    "fmt": "prettier --write 'scripts/**/*.js' 'pages/**/*.js' 'components/**/*.js' 'lib/**/*.js' 'styles/**/*.scss'",
+    "fetch-all": "node scripts/delete-all-sbx-data.js && node scripts/fetch-all-sbx-data.js",
+    "delete-all": "node scripts/delete-all-sbx-data.js"
   },
   "dependencies": {
     "@progfay/scrapbox-parser": "^8.1.0",
@@ -17,6 +19,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "cli-progress": "^3.11.2",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
     "prettier": "^2.7.1",

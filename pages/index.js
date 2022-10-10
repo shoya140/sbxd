@@ -2,9 +2,7 @@ import { parseAllData } from '../lib/scrapbox'
 
 import { Layout } from '../components/layout'
 
-const projectId = process.env.SBX_PROJECT_ID
-  ? process.env.SBX_PROJECT_ID
-  : 'villagepump'
+import sbxdConfig from '../sbxd.config'
 
 const sb = (node, lineIndex, nodeIndex) => {
   switch (node.type) {
@@ -28,7 +26,7 @@ const sb = (node, lineIndex, nodeIndex) => {
             <a
               key={`node-${lineIndex}-${nodeIndex}`}
               className="sbx-link"
-              href={`https://scrapbox.io/${projectId}/${node.href}`}
+              href={`https://scrapbox.io/${sbxdConfig.projectId}/${node.href}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -64,7 +62,7 @@ const sb = (node, lineIndex, nodeIndex) => {
       return (
         <a
           key={`node-${lineIndex}-${nodeIndex}`}
-          href={`https://scrapbox.io/${projectId}/${node.href}`}
+          href={`https://scrapbox.io/${sbxdConfig.projectId}/${node.href}`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -77,13 +75,13 @@ const sb = (node, lineIndex, nodeIndex) => {
           return (
             <a
               key={`node-${lineIndex}-${nodeIndex}`}
-              href={`https://scrapbox.io/${projectId}/${node.path}`}
+              href={`https://scrapbox.io/${sbxdConfig.projectId}/${node.path}`}
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
                 className="sbx-icon"
-                src={`https://scrapbox.io/api/pages/${projectId}/${node.path}/icon`}
+                src={`https://scrapbox.io/api/pages/${sbxdConfig.projectId}/${node.path}/icon`}
               />
             </a>
           )

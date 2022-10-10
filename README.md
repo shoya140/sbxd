@@ -2,12 +2,14 @@
 
 ## Getting Started
 
-Enter the following information in the environment variables. Use [`.env.local`](https://nextjs.org/docs/basic-features/environment-variables), for instance.
+Update `sbxd.config.js`.
 
 ```
-SBX_PROJECT_ID=villagepump
-SBX_USER_ID=shoya140
-SBX_START_DATE=2022-08-01
+const sbxdConfig = {
+  projectId: 'villagepump',
+  userId: 'shoya140',
+  startDate: '2022-08-01',
+}
 ```
 
 Run the development server.
