@@ -1,14 +1,6 @@
-# Sample workflow for building and deploying a Next.js site to GitHub Pages
-#
-# To get started with Next.js see: https://nextjs.org/docs/getting-started
-#
-name: Deploy Next.js site to Pages
+name: Delete all data in the contents branch
 
 on:
-  push:
-    branches: ["main"]
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -17,7 +9,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: "delete"
   cancel-in-progress: true
 
 jobs:
@@ -70,7 +62,7 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Fetch scrapbox contents
-        run: ${{ steps.detect-package-manager.outputs.runner }} fetch
+        run: ${{ steps.detect-package-manager.outputs.runner }} delete-all
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Static HTML export with Next.js
@@ -79,7 +71,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./out
-      - name: Push contents to the contents branch
+      - name: Push contents to the contents repository
         working-directory: contents
         run: |
           date > log
