@@ -1,4 +1,4 @@
-# sbx-diary
+# sbxd: sxrapbox diary
 
 ## Getting Started
 
