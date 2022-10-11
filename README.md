@@ -12,8 +12,18 @@ const sbxdConfig = {
 }
 ```
 
-Run the development server.
+Fetch recent scrapbox posts.
+
+```
+$ yarn fetch
+# or
+$ yarn fetch-all
+```
+
+Run the server or export web pages as a static site.
 
 ```bash
-$ yarn dev
+$ yarn build && yarn start
+# or
+$ yarn export
 ```
