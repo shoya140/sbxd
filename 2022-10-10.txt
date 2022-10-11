@@ -1,0 +1,7 @@
+ [sbxd] ([井戸端日記帳])
+ 	https://diary.shoya.io
+ 	https://github.com/shoya140/sbxd
+ 	[GitHub Actions]で一日一回、直近3日分の更新をGitHubにコピーすることにした
+ 		`workflow_dispatch`のおかげで手動で更新することもできる
+		おもしろい！[inajob.icon]
+			この発言、同じ人だったんだ、という気づきがあった（発言者を見ていない自分よ・・）
