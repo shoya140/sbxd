@@ -32,7 +32,7 @@ html {
   scroll-behavior: smooth;
 
   @include media-query($on-palm) {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -87,6 +87,10 @@ code {
     padding-top: 11px;
     overflow-x: scroll;
     white-space: nowrap;
+    margin-left: -1em;
+    padding-left: 1em;
+    margin-right: -1em;
+    padding-right: 1em;
   }
 }
 
