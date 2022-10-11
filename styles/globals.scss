@@ -2,6 +2,24 @@ $surface-color: #ffffff;
 $text-color: #1e2529;
 $brand-color: #577def;
 
+$content-width: 800px;
+$navigation-width: 150px;
+$on-palm: 580px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 html {
   padding: 0;
   margin: 0;
@@ -11,6 +29,11 @@ html {
   background-color: $surface-color;
   color: $text-color;
   word-break: break-all;
+  scroll-behavior: smooth;
+
+  @include media-query($on-palm) {
+    font-size: 14px;
+  }
 }
 
 body {
@@ -29,28 +52,93 @@ a {
   }
 }
 
-h2 {
-  padding-top: 1em;
-  margin-bottom: 0.3em;
-}
-
 code {
   font-size: 0.8em;
 }
 
-.content {
-  max-width: 800px;
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+
+  max-width: $content-width;
   margin: 0 auto;
   padding: 1em;
+
+  @include media-query($content-width + $navigation-width * 2) {
+    flex-direction: column;
+  }
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+
+  width: $navigation-width;
+  padding-top: 68px;
+  margin-left: -1 * $navigation-width;
+
+  @include media-query($content-width + $navigation-width * 2) {
+    width: 100%;
+    margin-left: 0;
+    flex-direction: row;
+    align-items: stretch;
+    padding-top: 11px;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+}
+
+.brand-link {
+  font-weight: 600;
+  color: $text-color;
+  text-decoration: none;
+
+  &:hover {
+    @media (hover: hover) {
+      text-decoration: none;
+    }
+  }
+}
+
+.navigation-link {
+  color: $text-color;
+  text-decoration: none;
+}
+
+.navigation-link-active {
+  text-decoration: underline;
+}
+
+.content {
+  width: 100%;
+  padding: 2em 0;
+
+  @include media-query($content-width + $navigation-width * 2) {
+    padding-top: 0em;
+  }
 }
 
 .diary {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .date-link {
+  h2 {
+    padding-top: 1em;
+    margin-top: 0;
+    margin-bottom: 0.3em;
+  }
+
   color: $text-color;
   text-decoration: none;
+
+  &:hover {
+    @media (hover: hover) {
+      text-decoration: none;
+    }
+  }
 }
 
 .sbx-p {

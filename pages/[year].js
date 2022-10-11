@@ -1,16 +1,25 @@
-import { getAllYear, getContents } from '../lib/contents'
+import Link from 'next/link'
+
+import { getAllMonths, getAllYears, getContents } from '../lib/contents'
 
 import { Layout } from '../components/layout'
 import { Scrapbox } from '../components/scrapbox'
 
-export default function Home({ contents }) {
+export default function Home({ contents, monthList }) {
   return (
-    <Layout>
+    <Layout monthList={monthList}>
       {contents.map((content) => (
-        <div key={content.date} id={content.date.slice(5)} className="diary">
-          <a href={`#${content.date.slice(5)}`} className="date-link">
-            <h2>{content.date}</h2>
-          </a>
+        <div key={content.date} className="diary">
+          <Link
+            href={`/${content.date.slice(0, 4)}/${content.date.slice(
+              5,
+              7
+            )}#${content.date.slice(8)}`}
+          >
+            <a className="date-link">
+              <h2>{content.date}</h2>
+            </a>
+          </Link>
           {content.diary.map((line, lineIndex) => (
             <p
               key={`line-${lineIndex}`}
@@ -28,7 +37,7 @@ export default function Home({ contents }) {
 }
 
 export async function getStaticPaths() {
-  const paths = getAllYear()
+  const paths = getAllYears()
   return {
     paths,
     fallback: false,
@@ -37,9 +46,11 @@ export async function getStaticPaths() {
 
 export function getStaticProps({ params }) {
   const contents = getContents(`${params.year}-`)
+  const monthList = getAllMonths().map((m) => m.params)
   return {
     props: {
       contents,
+      monthList: monthList,
     },
   }
 }

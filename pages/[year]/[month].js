@@ -1,11 +1,11 @@
-import { getAllMonth, getContents } from '../../lib/contents'
+import { getAllMonths, getContents } from '../../lib/contents'
 
 import { Layout } from '../../components/layout'
 import { Scrapbox } from '../../components/scrapbox'
 
-export default function Home({ contents }) {
+export default function Home({ contents, year, month, monthList }) {
   return (
-    <Layout>
+    <Layout year={year} month={month} monthList={monthList}>
       {contents.map((content) => (
         <div key={content.date} id={content.date.slice(8)} className="diary">
           <a href={`#${content.date.slice(8)}`} className="date-link">
@@ -28,7 +28,7 @@ export default function Home({ contents }) {
 }
 
 export async function getStaticPaths() {
-  const paths = getAllMonth()
+  const paths = getAllMonths()
   return {
     paths,
     fallback: false,
@@ -37,9 +37,13 @@ export async function getStaticPaths() {
 
 export function getStaticProps({ params }) {
   const contents = getContents(`${params.year}-${params.month}`)
+  const monthList = getAllMonths().map((m) => m.params)
   return {
     props: {
       contents,
+      year: params.year,
+      month: params.month,
+      monthList: monthList,
     },
   }
 }
