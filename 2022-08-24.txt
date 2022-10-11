@@ -1,0 +1,27 @@
+ Stable Diffusionで遊んでみた
+	 [https://gyazo.com/94cf7ae59b65dc030124bcc706eca64a][https://gyazo.com/b74a34354438e052bfab78f85fb13693]
+  	これらは割とうまくいった例
+  	夏、花火、っていうキーワードを入れると必ず水着着せようとするのなぜ...
+  	Google ColabからDriveに出力しているので[NSFW]が真っ黒になるのは助かるかも (不当にbanされたくないので)
+  	　あー、なるほど、そういうリスクもあるのか…[nishio.icon]
+ 	[https://gyazo.com/f90999dc8f21b726e929699226e9b492][https://gyazo.com/8f21376f7f925e569f3c92c1ac8b4e4a]
+			コツをつかんできた
+			左が[名取さな]っぽい...[基素.icon]
+				似てる！[shoya140.icon]
+				[https://gyazo.com/0efa5f78fdab7fcf0d1ac250d14843d5]
+	Midjourney
+		[https://gyazo.com/d7d8d3d34d19cf08a583479d11d44cdf][https://gyazo.com/b09b8dec32a04041d00a4e062d9cf344]
+		[https://gyazo.com/53e4cbb3a47eb090d8a45e432d5b53e8][https://gyazo.com/661d8983127993a1bb1a8416a066bad6]
+ Stable Diffusionリベンジ
+ 	[https://gyazo.com/2d09bcbcf7be97fcdbdba09cf18c0da6][https://gyazo.com/9f237de714905dfe96b2172350b0d69a]
+  	A girl with short hair is standing on an iceberg. wide angle, bold outline, few gradations, anime, kawaii.
+  	アニメっぽくするには`bold outline, few gradations`などを入れると良いことが分かった
+　　　　とてもいい感じ！参考にします[kidooom.icon][基素.icon]
+	ゲームで3DCGが出てきた初期の頃もキャラは後ろを向いていたな、、というのを思い出した[inajob.icon]
+  そうなんですか？顔は違和感感じやすいからですかね[基素.icon]
+  	FF7の止め絵でそれを感じましたが、一般的な情報ではないかも[inajob.icon]
+  		https://www.jp.square-enix.com/game/detail/ff7/
+  			> [https://gyazo.com/1f8908e973ef88ad45b22453e0127ea3]
+		たしかに、後ろ姿にして顔を隠すとかなり違和感が減りました[shoya140.icon]
+			[https://gyazo.com/d1abf7258b8a989cec63f8fe14f4617f][https://gyazo.com/ed54ba7097ed6a5407f5a029897703af]
+   [https://gyazo.com/93f29ee7ef4310e58cb096c17a053286][https://gyazo.com/f870d93558a8a588f007bf630be32c27]

@@ -1,0 +1,7 @@
+ [DreamBooth]後で試す
+ 	>[https://twitter.com/psuraj28/status/1575123562435956740 @psuraj28]: dreambooth #stablediffusion training is now available in 🧨diffusers!
+  >And guess what! You can run this on a 16GB colab in less than 15 mins!
+  >Github: https://t.co/ipIuIJNlMm
+  >Colab for training: https://t.co/n6uWQRgPK3
+  >Colab for inference: https://t.co/cbUoibYRWS
+  >[https://pbs.twimg.com/media/Fdv2h9TWYAAun3H.jpg]

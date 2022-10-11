@@ -1,0 +1,9 @@
+ 井戸端の日記から自分が書いたところを抽出して一覧表示するツールを作り始めた
+ 	[https://gyazo.com/b62ea9d78019b77271a5997518d2cb72]
+		日付でループ
+		ページの内容を取得 https://scrapbox.io/api/pages/villagepump/2022%2F10%2F06/text
+		`[自分のユーザー名.icon]`で始まって空行で終わるところを抽出
+		ローカルファイルに保存
+		パースしてhtmlに変換
+		おお〜、日記だ（？）[yosider.icon]
+		おもしろそう[meganii.icon]
