@@ -3,8 +3,8 @@ $surface-color: #ffffff;
 $text-color: #1e2529;
 $brand-color: #778d9c;
 
-$content-width: 900px;
-$navigation-width: 140px;
+$content-width: 880px;
+$navigation-width: 120px;
 $on-palm: 580px;
 
 @mixin media-query($device) {
@@ -78,11 +78,11 @@ code {
 
   width: $navigation-width;
   padding-top: 2em;
-  margin-left: -1 * $navigation-width;
+  margin-right: -1 * $navigation-width;
+  padding-left: 1em;
 
   @include media-query($content-width + $navigation-width * 2) {
     width: 100%;
-    margin-left: 0;
     flex-direction: row;
     align-items: stretch;
     overflow-x: scroll;
@@ -118,6 +118,10 @@ code {
 .content {
   width: 100%;
   padding: 2em 0;
+
+  @include media-query($content-width + $navigation-width * 2) {
+    order: 1;
+  }
 }
 
 .diary {

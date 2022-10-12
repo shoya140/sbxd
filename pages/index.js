@@ -4,6 +4,7 @@ import { useRouter } from 'next/router'
 import { getAllMonths, getContents } from '../lib/contents'
 
 import { Layout } from '../components/layout'
+import { Scrapbox } from '../components/scrapbox'
 
 export default function Home({ contents, year, month, monthList }) {
   const router = useRouter()
@@ -12,7 +13,27 @@ export default function Home({ contents, year, month, monthList }) {
     router.push(`/${year}/${month}`, undefined, { shallow: true })
   }, [])
 
-  return <Layout monthList={monthList} />
+  return (
+    <Layout year={year} month={month} monthList={monthList}>
+      {contents.map((content) => (
+        <div key={content.date} id={content.date.slice(8)} className="diary">
+          <a href={`#${content.date.slice(8)}`} className="date-link">
+            <h2>{content.date}</h2>
+          </a>
+          {content.diary.map((line, lineIndex) => (
+            <p
+              key={`line-${lineIndex}`}
+              className={`sbx-p indent-${line.indent}`}
+            >
+              {line.nodes.map((node, nodeIndex) => (
+                <Scrapbox key={`node-${lineIndex}-${nodeIndex}`} node={node} />
+              ))}
+            </p>
+          ))}
+        </div>
+      ))}
+    </Layout>
+  )
 }
 
 export function getStaticProps() {

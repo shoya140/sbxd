@@ -1,18 +1,22 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import sbxdConfig from '../sbxd.config'
 
 export function Layout({ children, year, month, monthList }) {
   return (
     <div>
       <Head>
-        <title>@shoya140 - scrapbox-diary</title>
+        <title>{`${sbxdConfig.title}${
+          year && month ? ` ${year}-${month}` : ''
+        }`}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <dic className="container">
+      <div className="container">
+        <div className="content">{children}</div>
         <div className="navigation">
           <Link href="/">
-            <a className="brand-link">井戸端日記帳</a>
+            <a className="brand-link">{sbxdConfig.title}</a>
           </Link>
           {monthList &&
             monthList.map((m) => (
@@ -30,8 +34,7 @@ export function Layout({ children, year, month, monthList }) {
               </Link>
             ))}
         </div>
-        <div className="content">{children}</div>
-      </dic>
+      </div>
     </div>
   )
 }
