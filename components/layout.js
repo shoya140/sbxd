@@ -1,13 +1,16 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
+
 import sbxdConfig from '../sbxd.config'
 
 export function Layout({ children, year, month, monthList }) {
+  const router = useRouter()
   return (
     <div>
       <Head>
         <title>{`${sbxdConfig.title}${
-          year && month ? ` ${year}-${month}` : ''
+          router.asPath !== '/' && year && month ? ` ${year}-${month}` : ''
         }`}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

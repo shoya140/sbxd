@@ -30,7 +30,6 @@ html {
   background-color: $bacground-color;
   color: $text-color;
   word-break: break-all;
-  scroll-behavior: smooth;
 
   @include media-query($on-palm) {
     font-size: 16px;
