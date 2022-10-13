@@ -11,4 +11,6 @@
  		なるほどと思った
  [https://huggingface.co/shoya140/mitou-symbol-v0-2 shoya140/mitou-symbol-v0-2 · Hugging Face]
  	未踏のロゴをDreamBoothで学習
- 	学習済みモデルの配布がかなり簡単で驚いた
+ 	学習済みモデルの配布がかなり簡単
+	　[https://gyazo.com/49c0c1875981d3073592d8099482eac7][https://gyazo.com/7b29bbd41c3db65b2d7cc091ceb3743e][https://gyazo.com/52686ce360007a3a687c97ed13425f6b][https://gyazo.com/ed951d5d6e70bac35879040e548ef750]
+  	「月面にそびえ立つ未踏ロゴ」を出力しようとすると、まれに未踏のポーズ (？) の宇宙飛行士が出てくる
