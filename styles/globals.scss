@@ -1,11 +1,16 @@
-$bacground-color: #f1f5f9;
+$background-color: #f1f5f9;
 $surface-color: #ffffff;
 $text-color: #1e2529;
 $brand-color: #778d9c;
 
-$content-width: 880px;
+$content-width: 860px;
 $navigation-width: 120px;
 $on-palm: 580px;
+
+$base-font-family: -apple-system, BlinkMacSystemFont,
+  'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+$navigation-font-family: 'Hiragino Kaku Gothic ProN', Meiryo, -apple-system,
+  BlinkMacSystemFont, sans-serif;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
@@ -24,16 +29,11 @@ $on-palm: 580px;
 html {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-size: 18px;
-  background-color: $bacground-color;
+  font-family: $base-font-family;
+  font-size: 16px;
+  background-color: $background-color;
   color: $text-color;
   word-break: break-all;
-
-  @include media-query($on-palm) {
-    font-size: 16px;
-  }
 }
 
 body {
@@ -60,13 +60,16 @@ code {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-
   max-width: $content-width;
   margin: 0 auto;
-  padding: 0.5em;
+  padding: 1em 2em;
 
   @include media-query($content-width + $navigation-width * 2) {
     flex-direction: column;
+  }
+
+  @include media-query($on-palm) {
+    padding: 1em 0.5em;
   }
 }
 
@@ -74,11 +77,11 @@ code {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
-
   width: $navigation-width;
   padding-top: 2em;
   margin-right: -1 * $navigation-width;
   padding-left: 1em;
+  font-family: $navigation-font-family;
 
   @include media-query($content-width + $navigation-width * 2) {
     width: 100%;
@@ -86,6 +89,14 @@ code {
     align-items: stretch;
     overflow-x: scroll;
     white-space: nowrap;
+    padding-top: 1em;
+    margin-left: -2em;
+    padding-left: 2em;
+    margin-right: -2em;
+    padding-right: 2em;
+  }
+
+  @include media-query($on-palm) {
     margin-left: -0.5em;
     padding-left: 0.5em;
     margin-right: -0.5em;
@@ -136,14 +147,10 @@ code {
 
 .date-link {
   h2 {
-    font-size: 1.6 * 1em;
+    font-size: 1.7 * 1em;
     margin-top: 0;
     margin-bottom: 1em;
     text-align: center;
-
-    @include media-query($on-palm) {
-      margin-bottom: 0.5em;
-    }
   }
 
   color: $text-color;
@@ -157,9 +164,9 @@ code {
 }
 
 .sbx-p {
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
-  line-height: 1.5;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  line-height: 1.6;
 
   &:before {
     content: '・';
