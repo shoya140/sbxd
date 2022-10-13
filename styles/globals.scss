@@ -62,14 +62,14 @@ code {
   align-items: flex-start;
   max-width: $content-width;
   margin: 0 auto;
-  padding: 1em 2em;
+  padding: 1em 2em 0 2em;
 
   @include media-query($content-width + $navigation-width * 2) {
     flex-direction: column;
   }
 
   @include media-query($on-palm) {
-    padding: 1em 0.5em;
+    padding: 1em 0.5em 0 1em;
   }
 }
 
@@ -127,7 +127,7 @@ code {
 
 .content {
   width: 100%;
-  padding: 2em 0;
+  padding: 2em 0 0 0;
 
   @include media-query($content-width + $navigation-width * 2) {
     order: 1;
@@ -233,4 +233,14 @@ code {
 .sbx-quote {
   background-color: #eeeeee;
   font-style: italic;
+}
+
+.footer {
+  font-size: 0.9em;
+  text-align: center;
+  padding-bottom: 2em;
+
+  @include media-query($on-palm) {
+    font-size: 0.8em;
+  }
 }
