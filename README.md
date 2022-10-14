@@ -21,10 +21,10 @@ $ yarn fetch
 $ yarn fetch-all
 ```
 
-Run the server or export web pages as a static site.
+Run the dev server or export web pages as a static website.
 
 ```bash
-$ yarn build && yarn start
+$ yarn dev
 # or
-$ yarn export
+$ yarn build
 ```
