@@ -6,6 +6,8 @@ $brand-color: #778d9c;
 $content-width: 860px;
 $navigation-width: 120px;
 $on-palm: 580px;
+$image-max-width: 400px;
+$image-max-height: 300px;
 
 $base-font-family: -apple-system, BlinkMacSystemFont,
   'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
@@ -54,6 +56,11 @@ a {
 
 code {
   font-size: 0.8em;
+}
+
+img {
+  max-width: min($image-max-width, 100%);
+  max-height: $image-max-height;
 }
 
 .container {
@@ -225,9 +232,24 @@ code {
   margin-bottom: -2px;
 }
 
-.sbx-image {
-  max-height: 230px;
-  max-width: 230px;
+.sbx-image-1 {
+  max-width: min($image-max-width, 100%);
+}
+
+.sbx-image-2 {
+  max-width: min($image-max-width, 50%);
+}
+
+.sbx-image-3 {
+  max-width: min($image-max-width, 33%);
+}
+
+.sbx-image-4 {
+  max-width: min($image-max-width, 25%);
+}
+
+.sbx-image-5 {
+  max-width: min($image-max-width, 20%);
 }
 
 .sbx-quote {

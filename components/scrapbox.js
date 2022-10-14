@@ -1,13 +1,13 @@
 import sbxdConfig from '../sbxd.config'
 
-export function Scrapbox({ node }) {
+export function Scrapbox({ node, nImages }) {
   switch (node.type) {
     case 'plain':
       return <span>{node.text}</span>
     case 'image':
       return (
         <a href={node.src} target="_blank" rel="noopener noreferrer">
-          <img className="sbx-image" src={node.src} />
+          <img className={`sbx-image sbx-image-${nImages}`} src={node.src} />
         </a>
       )
     case 'link':

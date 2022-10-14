@@ -20,16 +20,25 @@ export default function Home({ contents, monthList }) {
               <h2>{content.date}</h2>
             </a>
           </Link>
-          {content.diary.map((line, lineIndex) => (
-            <div
-              key={`line-${lineIndex}`}
-              className={`sbx-line indent-${line.indent}`}
-            >
-              {line.nodes.map((node, nodeIndex) => (
-                <Scrapbox key={`node-${lineIndex}-${nodeIndex}`} node={node} />
-              ))}
-            </div>
-          ))}
+          {content.diary.map((line, lineIndex) => {
+            const nImages = line.nodes.filter(
+              (node) => node.type === 'image'
+            ).length
+            return (
+              <div
+                key={`line-${lineIndex}`}
+                className={`sbx-line indent-${line.indent}`}
+              >
+                {line.nodes.map((node, nodeIndex) => (
+                  <Scrapbox
+                    key={`node-${lineIndex}-${nodeIndex}`}
+                    node={node}
+                    nImages={nImages}
+                  />
+                ))}
+              </div>
+            )
+          })}
         </div>
       ))}
     </Layout>
