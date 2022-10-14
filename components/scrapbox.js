@@ -34,6 +34,30 @@ export function Scrapbox({ node }) {
             </a>
           )
         case 'absolute':
+          const youtubeMatch = node.href.match(
+            RegExp('^https://www.youtube.com/watch\\?v=([a-zA-Z0-9_-]+)$')
+          )
+          if (node.content === '' && youtubeMatch) {
+            const youtubeKey = youtubeMatch[1]
+            return (
+              <div className="sbx-youtube-container">
+                <iframe
+                  className="sbx-youtube-iframe"
+                  width="560"
+                  height="315"
+                  src={`https://www.youtube.com/embed/${youtubeKey}`}
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            )
+          }
+          const audioMatch = node.href.match(RegExp('\\.mp3$'))
+          if (node.content === '' && audioMatch) {
+            return <audio controls className="sbx-audio" src={node.href} />
+          }
           return (
             <a href={node.href} target="_blank" rel="noopener noreferrer">
               {node.content ? node.content : node.raw}

@@ -163,7 +163,7 @@ code {
   }
 }
 
-.sbx-p {
+.sbx-line {
   margin-top: 0.3em;
   margin-bottom: 0.3em;
   line-height: 1.6;
@@ -233,6 +233,26 @@ code {
 .sbx-quote {
   background-color: #eeeeee;
   font-style: italic;
+}
+
+.sbx-youtube-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.sbx-youtube-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.sbx-audio {
+  max-width: 100%;
 }
 
 .footer {

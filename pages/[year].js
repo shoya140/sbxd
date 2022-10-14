@@ -21,14 +21,14 @@ export default function Home({ contents, monthList }) {
             </a>
           </Link>
           {content.diary.map((line, lineIndex) => (
-            <p
+            <div
               key={`line-${lineIndex}`}
-              className={`sbx-p indent-${line.indent}`}
+              className={`sbx-line indent-${line.indent}`}
             >
               {line.nodes.map((node, nodeIndex) => (
                 <Scrapbox key={`node-${lineIndex}-${nodeIndex}`} node={node} />
               ))}
-            </p>
+            </div>
           ))}
         </div>
       ))}
