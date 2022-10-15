@@ -242,14 +242,26 @@ img {
 
 .sbx-image-3 {
   max-width: min($image-max-width, 33%);
+
+  @include media-query($on-palm) {
+    max-width: min($image-max-width, 50%);
+  }
 }
 
 .sbx-image-4 {
   max-width: min($image-max-width, 25%);
+
+  @include media-query($on-palm) {
+    max-width: min($image-max-width, 50%);
+  }
 }
 
 .sbx-image-5 {
   max-width: min($image-max-width, 20%);
+
+  @include media-query($on-palm) {
+    max-width: min($image-max-width, 50%);
+  }
 }
 
 .sbx-quote {
