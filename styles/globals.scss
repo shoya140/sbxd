@@ -76,7 +76,7 @@ img {
   }
 
   @include media-query($on-palm) {
-    padding: 1em 0.5em 0 1em;
+    padding: 1em 0.5em 0 0.5em;
   }
 }
 
