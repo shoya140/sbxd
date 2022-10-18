@@ -2,7 +2,7 @@
  	[https://dreambooth.github.io/ DreamBooth]
   Stable Diffusionに好きなsubjectを追加するfine-tuning
   [https://gyazo.com/0052a3befafae98836e422992f2b81da][https://gyazo.com/6f86f73877b8a39bc214a0729464684c]
-			芹沢あさひさんというキャラクターのイラストを10枚学習させて「パーカーを着ている」というプロンプトで出力
+			[芹沢あさひ]さんというキャラクターのイラストを10枚学習させて「パーカーを着ている」というプロンプトで出力
 			イラストに関しては、4枚だと少なくて元の画像の特徴が色濃くですぎて、20枚を超えるとイラストごとの差異で誰なのか分かりにくくなる感じだった。10枚くらいで十分
 		[https://gyazo.com/27ccfa510195332178f4f613421fdc76][https://gyazo.com/9dd9cd30f30d0f166d063cb65063f777]
 			副次的に生成された、整ったイラスト
@@ -13,4 +13,4 @@
  	未踏のロゴをDreamBoothで学習
  	学習済みモデルの配布がかなり簡単
 	　[https://gyazo.com/49c0c1875981d3073592d8099482eac7][https://gyazo.com/7b29bbd41c3db65b2d7cc091ceb3743e][https://gyazo.com/52686ce360007a3a687c97ed13425f6b][https://gyazo.com/ed951d5d6e70bac35879040e548ef750]
-  	「月面にそびえ立つ未踏ロゴ」を出力しようとすると、まれに未踏のポーズ (？) の宇宙飛行士が出てくる
+  	「[月面]にそびえ立つ[未踏ロゴ]」を出力しようとすると、まれに[未踏]のポーズ (？) の[宇宙飛行士]が出てくる
