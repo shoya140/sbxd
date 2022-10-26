@@ -1,5 +1,5 @@
  今日から新学期
- [NovelAI], flat color + tilted angle + cloud
+ [NovelAI], [flat color] + tilted angle + cloud
   [https://gyazo.com/b6b87a11fd593637e4f2fa928ed9daf4][https://gyazo.com/8acf07be1ee67446568ec7268afe33c5]
   AI絵画、いい感じの絵が出力される⇔プロンプトを改良するのイテレーションが早い
   プロンプトを使って[SECIモデル]における[表出化]を行いたい
