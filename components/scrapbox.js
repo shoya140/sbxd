@@ -104,10 +104,11 @@ export function Scrapbox({ node, nImages }) {
     case 'code':
       return <code className="sbx-code">{node.text}</code>
     case 'quote':
+      const nis = node.nodes.filter((node) => node.type === 'image').length
       return (
         <span className="sbx-quote">
           {node.nodes.map((node) => (
-            <Scrapbox key={`node-${Math.random()}`} node={node} />
+            <Scrapbox key={`node-${Math.random()}`} node={node} nImages={nis} />
           ))}
         </span>
       )
