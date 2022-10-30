@@ -22,7 +22,7 @@ const sbxdConfig = {
 
 Fetch recent Scrapbox posts.
 
-```
+```bash
 $ npm run fetch
 # or
 $ npm run fetch-all
@@ -34,6 +34,8 @@ Run the dev server or export web pages as a static website.
 $ npm run dev
 # or
 $ npm run build
+# or
+$ npm run build && npm run start
 ```
 
 ## How to host sbxd on GitHub Pages
