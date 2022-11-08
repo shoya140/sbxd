@@ -1,5 +1,6 @@
  [Principles of Neural Science, Sixth Edition https://www.amazon.co.jp/Principles-Neural-Science-Eric-Kandel/dp/1259642232/] ([カンデル神経科学])を読み始めた
  	構成が変わり、[Brain-Machine Interfaces]などの章が追加されている
+ 	　気になる[yosider.icon][nishio.icon]
  	副読本として[脳神経科学がわかる、好きになる https://www.amazon.co.jp/gp/product/B08L4FJXPC/]を購入
  		> 今後、さまざまな分野の専門家がますます[脳神経科学]に参入し、脳神経科学の知見を深め、例えばコンピューターなどに応用していくためには、[全体像を簡単につかむための教材]が必要となります。それがこの本と言うわけです。
  			良さそう。そういう本を探してた！
