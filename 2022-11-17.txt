@@ -3,16 +3,22 @@
  	 こういう図をさくっと描けるようになりたい[takker.icon]
  	 こういう図って、どういうソフトで描くんだろう？
  	 　うちの教授は[adobe]を使っていた
+ 	 　 どうやら教職員には無料でライセンスが配られているらしい
  	 　　学生には使えません……
  	 　　[Affinity]ならお手頃[基素.icon]
+ 	 　　買い切りなんですね。うれしい[takker.icon]
+ 	 　　[Affinity Designer]
  	 　[draw.io]でも描けそう[inajob.icon]
  	 　	学生のときは[Inkscape]を使っていたがちょっとこういう目的には使いづらそう
  	 　	先生は[MetaPost]で頑張っていた気がする
  	 　	[OmniGraffle]が使いやすそうに見えたが未体験
+ 	 　 Appleは持ってないんで[draw.io]かな？[takker.icon]
  	 	この図はアニメーションさせたくて[Keynote]で作りました[shoya140.icon]
  	 		[https://gyazo.com/925d21f86bc032297c4763e526582a3f]
+ 	 		 アニメーション最高です[takker.icon*3]
+ 	 		 まずはこういう2次元図解アニメーションまで作れるようにしたい
  	 		大体Keynoteで、複雑な図が必要な時は[Adobe Illustrator]を使っています
  	 		Adobe高い分かる...[学生・教職員個人版 https://software.univcoop.or.jp/item/5127?unit_subcategory_id=58]で安くなるのとソフトウェアは研究費で買えるのが使い続けている理由かもです
 		先週同様に家に帰って横になったら朝だった
-		毎週全力疾走している
+		[毎週全力疾走]している
 		　すごい[基素.icon][takker.icon]
