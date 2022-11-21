@@ -24,5 +24,5 @@
  			ミュンヘン地裁の判決を受けて禁止のアナウンスが届いた
  			[https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html German Court Rules Websites Embedding Google Fonts Violates GDPR]
    YouTubeについては埋め込むと自動的にGoogle Fontsが入るため
-   	YouTubeは[プライバシー強化モード (nocookie) https://support.google.com/youtube/answer/171780]の埋め込み機能を提供しているが、依然としてGoogle Fontsが残っているので自社サイトに埋め込めないというイシューが立てられている
+   	YouTubeは[プライバシー強化モード (nocookie) https://support.google.com/youtube/answer/171780] の埋め込み機能を提供しているが、依然としてGoogle Fontsが残っているので自社サイトに埋め込めないというイシューが立てられている
    	[https://issuetracker.google.com/issues/253560240 Embed youtube videos without loading Google Fonts - Google Issue Tracker]
