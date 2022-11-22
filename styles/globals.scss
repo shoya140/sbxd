@@ -311,6 +311,13 @@ img {
   }
 }
 
+hr {
+  height: 2px;
+  background-color: $background-color;
+  border: none;
+  margin: 1.5em 0;
+}
+
 .footer {
   font-size: 0.9em;
   text-align: center;

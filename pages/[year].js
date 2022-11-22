@@ -20,12 +20,15 @@ export default function Home({ contents, monthList }) {
               <h2>{content.date}</h2>
             </a>
           </Link>
-          {content.projects.map(({ projectId, diary }) => (
-            <Diary
-              key={`diary-${content.date}-${projectId}`}
-              projectId={projectId}
-              diary={diary}
-            />
+          {content.projects.map(({ projectId, diary }, index) => (
+            <div key={`diary-${content.date}-${projectId}`}>
+              <Diary
+                key={`diary-${content.date}-${projectId}`}
+                projectId={projectId}
+                diary={diary}
+              />
+              {index !== content.projects.length - 1 && <hr />}
+            </div>
           ))}
         </div>
       ))}
