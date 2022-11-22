@@ -1,0 +1,31 @@
+ [/villagepump]からの移行先として個人プロジェクトを作成した
+	[sbxd] ([井戸端日記帳 https://diary.shoya.io/]) を複数プロジェクトに対応させたい => Done
+		code:既存の設定ファイル.js
+		 const sbxdConfig = {
+     projectId: 'villagepump',
+     userId: 'shoya140',
+     startDate: '2022-08-01',
+     title: '井戸端日記帳',
+   }
+   module.exports = sbxdConfig
+		code:提案する設定ファイル.js
+  	const sbxdConfig = {
+     userId: 'shoya140',
+     title: '井戸端日記帳',
+     projects: [
+       {
+         projectId: 'shoya140',
+         dateFormat: 'YYYY-MM-DD',
+         startDate: '2022-11-22',
+       },
+       {
+         projectId: 'villagepump', // required.
+         dateFormat: 'YYYY/MM/DD', // default: 'YYYY-MM-DD'
+         startDate: '2022-08-01',  // default: 7 days ago
+         endDate: '2022-11-22'     // default: today
+       }
+     ]
+   }
+   module.exports = sbxdConfig
+		どのプロジェクトからインポートされた内容かを明示すべき？
+		この機会に`YYYY/MM/DD`以外の日付フォーマットもサポートしよう
