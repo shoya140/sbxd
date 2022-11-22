@@ -2,21 +2,25 @@ const cliProgress = require('cli-progress')
 
 const utils = require('./utils')
 
-;(async () => {
-  const date = new Date()
-  const dayDiff = 3
+const sbxConfig = require('../sbxd.config')
 
-  const bar = new cliProgress.SingleBar(
-    {
-      format: 'Fetching Scrapbox {bar} {value}/{total} Pages | ETA: {eta}s',
-    },
-    cliProgress.Presets.shades_classic
-  )
-  bar.start(dayDiff, 0)
-  for (const i of Array(dayDiff).keys()) {
-    await utils.fetchData(date)
-    date.setDate(date.getDate() - 1)
-    bar.update(i + 1)
+;(async () => {
+  for (const { projectId } of sbxConfig.projects) {
+    const date = new Date()
+    const dayDiff = 3
+
+    const bar = new cliProgress.SingleBar(
+      {
+        format: `Fetching ${projectId} {bar} {value}/{total} Pages | ETA: {eta}s`,
+      },
+      cliProgress.Presets.shades_classic
+    )
+    bar.start(dayDiff, 0)
+    for (const i of Array(dayDiff).keys()) {
+      await utils.fetchData(date, projectId)
+      date.setDate(date.getDate() - 1)
+      bar.update(i + 1)
+    }
+    bar.stop()
   }
-  bar.stop()
 })()

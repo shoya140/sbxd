@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { getAllMonths, getAllYears, getContents } from '../lib/contents'
 
 import { Layout } from '../components/layout'
-import { Scrapbox } from '../components/scrapbox'
+import { Diary } from '../components/diary'
 
 export default function Home({ contents, monthList }) {
   return (
@@ -20,25 +20,13 @@ export default function Home({ contents, monthList }) {
               <h2>{content.date}</h2>
             </a>
           </Link>
-          {content.diary.map((line, lineIndex) => {
-            const nImages = line.nodes.filter(
-              (node) => node.type === 'image'
-            ).length
-            return (
-              <div
-                key={`line-${lineIndex}`}
-                className={`sbx-line indent-${line.indent}`}
-              >
-                {line.nodes.map((node, nodeIndex) => (
-                  <Scrapbox
-                    key={`node-${lineIndex}-${nodeIndex}`}
-                    node={node}
-                    nImages={nImages}
-                  />
-                ))}
-              </div>
-            )
-          })}
+          {content.projects.map(({ projectId, diary }) => (
+            <Diary
+              key={`diary-${content.date}-${projectId}`}
+              projectId={projectId}
+              diary={diary}
+            />
+          ))}
         </div>
       ))}
     </Layout>

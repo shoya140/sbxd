@@ -4,15 +4,18 @@ const axios = require('axios')
 
 const sbxConfig = require('../sbxd.config')
 
-const fetchData = async (date) => {
+const fetchData = async (date, projectId) => {
   const dateString = date.toISOString().split('T')[0]
   const dateEncoded = dateString.replaceAll('-', '%2F')
 
-  const data = (
-    await axios.get(
-      `https://scrapbox.io/api/pages/${sbxConfig.projectId}/${dateEncoded}/text`
-    )
-  ).data
+  var data = ''
+  try {
+    data = (
+      await axios.get(
+        `https://scrapbox.io/api/pages/${projectId}/${dateEncoded}/text`
+      )
+    ).data
+  } catch (error) {}
 
   var isMyDiary = false
   var diary = ''
@@ -32,7 +35,7 @@ const fetchData = async (date) => {
 
   if (diary !== '') {
     fs.writeFileSync(
-      path.join(process.cwd(), 'contents', `${dateString}.txt`),
+      path.join(process.cwd(), 'contents', `${projectId}__${dateString}.txt`),
       diary.trimEnd()
     )
   }

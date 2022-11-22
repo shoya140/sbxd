@@ -48,15 +48,7 @@ export function Layout({ children, year, month, monthList }) {
           >
             sbxd
           </a>{' '}
-          with contents of{' '}
-          <a
-            href={`https://scrapbox.io/${sbxdConfig.projectId}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {sbxdConfig.projectId}
-          </a>
-          .
+          with contents on Scrapbox.
         </p>
       </div>
     </div>

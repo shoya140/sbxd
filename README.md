@@ -4,17 +4,19 @@ Update `sbxd.config.js` with your information.
 
 ```
 const sbxdConfig = {
-  // Your Scrapbox project ID.
-  projectId: 'villagepump',
-
-  // Your user ID in the project.
   userId: 'shoya140',
-
-  // $ npm run fetch-all fetches all diary posts since this date.
-  startDate: '2022-08-01',
-
-  // used for the title of the website.
   title: '井戸端日記帳',
+  projects: [
+    {
+      projectId: 'shoya140',
+      startDate: '2022-11-21',
+    },
+    {
+      projectId: 'villagepump',
+      startDate: '2022-08-01',
+      endDate: '2022-11-22',
+    },
+  ],
 }
 ```
 

@@ -1,7 +1,7 @@
 import { getAllMonths, getContents } from '../../lib/contents'
 
 import { Layout } from '../../components/layout'
-import { Scrapbox } from '../../components/scrapbox'
+import { Diary } from '../../components/diary'
 
 export default function Home({ contents, year, month, monthList }) {
   return (
@@ -11,25 +11,13 @@ export default function Home({ contents, year, month, monthList }) {
           <a href={`#${content.date.slice(8)}`} className="date-link">
             <h2>{content.date}</h2>
           </a>
-          {content.diary.map((line, lineIndex) => {
-            const nImages = line.nodes.filter(
-              (node) => node.type === 'image'
-            ).length
-            return (
-              <div
-                key={`line-${lineIndex}`}
-                className={`sbx-line indent-${line.indent}`}
-              >
-                {line.nodes.map((node, nodeIndex) => (
-                  <Scrapbox
-                    key={`node-${lineIndex}-${nodeIndex}`}
-                    node={node}
-                    nImages={nImages}
-                  />
-                ))}
-              </div>
-            )
-          })}
+          {content.projects.map(({ projectId, diary }) => (
+            <Diary
+              key={`diary-${content.date}-${projectId}`}
+              projectId={projectId}
+              diary={diary}
+            />
+          ))}
         </div>
       ))}
     </Layout>

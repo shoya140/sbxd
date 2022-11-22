@@ -1,6 +1,4 @@
-import sbxdConfig from '../sbxd.config'
-
-export function Scrapbox({ node, nImages }) {
+export function Scrapbox({ projectId, node, nImages }) {
   switch (node.type) {
     case 'plain':
       return <span>{node.text}</span>
@@ -16,7 +14,7 @@ export function Scrapbox({ node, nImages }) {
           return (
             <a
               className="sbx-link"
-              href={`https://scrapbox.io/${sbxdConfig.projectId}/${node.href}`}
+              href={`https://scrapbox.io/${projectId}/${node.href}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -69,7 +67,7 @@ export function Scrapbox({ node, nImages }) {
     case 'hashTag':
       return (
         <a
-          href={`https://scrapbox.io/${sbxdConfig.projectId}/${node.href}`}
+          href={`https://scrapbox.io/${projectId}/${node.href}`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -81,13 +79,13 @@ export function Scrapbox({ node, nImages }) {
         case 'relative':
           return (
             <a
-              href={`https://scrapbox.io/${sbxdConfig.projectId}/${node.path}`}
+              href={`https://scrapbox.io/${projectId}/${node.path}`}
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
                 className="sbx-icon"
-                src={`https://scrapbox.io/api/pages/${sbxdConfig.projectId}/${node.path}/icon`}
+                src={`https://scrapbox.io/api/pages/${projectId}/${node.path}/icon`}
               />
             </a>
           )
