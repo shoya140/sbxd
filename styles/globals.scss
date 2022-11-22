@@ -291,8 +291,24 @@ img {
 
 .sbx-pre {
   font-size: 0.8em;
+  padding: 0.5em;
   margin-top: 0.3em;
   margin-bottom: 0.3em;
+  border-radius: 0.3em;
+  background-color: $text-color;
+  color: $surface-color;
+  overflow-x: scroll;
+
+  pre {
+    margin: 0.2em 0;
+  }
+
+  .sbx-file-name {
+    color: $text-color;
+    background-color: $surface-color;
+    padding: 0.2em 0.4em;
+    border-radius: 0.2em;
+  }
 }
 
 .footer {

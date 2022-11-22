@@ -19,7 +19,12 @@ export function Diary({ projectId, diary }) {
               nImages={nImages}
             />
           ))}
-        {line.content && <pre className="sbx-pre">{line.content}</pre>}
+        {line.content && line.type === 'codeBlock' && (
+          <div className="sbx-pre">
+            <span className="sbx-file-name">{line.fileName}</span>
+            <pre>{line.content}</pre>
+          </div>
+        )}
       </div>
     )
   })
