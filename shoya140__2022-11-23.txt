@@ -6,3 +6,6 @@
  昼、1人で外食してかなり気分転換になった
   ベトナム料理店でラーメンを食べてほうじ茶を飲んだ
   晴れていたのと窓際の席に座ったのが良かった
+	[https://www.rewind.ai/ Rewind]
+  Macの画面を常に録画・OCRして検索可能にするアプリケーション
+  圧縮が強みらしい [https://help.rewind.ai/en/articles/6706118-how-does-rewind-compression-work How does Rewind compression work? | Rewind Help Center]
