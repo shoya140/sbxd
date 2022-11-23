@@ -19,7 +19,7 @@
          startDate: '2022-11-22',
        },
        {
-         projectId: 'villagepump', // required.
+         projectId: 'villagepump', // required
          dateFormat: 'YYYY/MM/DD', // default: 'YYYY-MM-DD'
          startDate: '2022-08-01',  // default: 3 days ago
          endDate: '2022-11-22'     // default: today
