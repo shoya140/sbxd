@@ -311,6 +311,56 @@ img {
   }
 }
 
+.sbx-favicon-container {
+  position: absolute;
+  margin-left: -3em;
+  padding: 0.3em 0.5em 0.3em 1.3em;
+  background: lighten($brand-color, 30%);
+  height: 1em;
+  width: 1em;
+
+  &:hover {
+    @media (hover: hover) {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+
+  @include media-query($on-palm) {
+    padding: 0.3em 0.3em;
+    margin-left: -1.5em;
+  }
+
+  &::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    border: none;
+    border-bottom: solid 0.5em transparent;
+    border-right: solid 1em lighten($brand-color, 20%);
+
+    @include media-query($on-palm) {
+      border-bottom: none;
+      border-right: none;
+    }
+  }
+
+  a {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .sbx-favicon {
+    width: 1em;
+    height: 1em;
+  }
+}
+
 hr {
   height: 2px;
   background-color: $background-color;

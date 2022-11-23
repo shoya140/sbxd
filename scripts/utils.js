@@ -4,7 +4,7 @@ const axios = require('axios')
 
 const sbxConfig = require('../sbxd.config')
 
-const fetchData = async (date, projectId) => {
+const fetchPage = async (date, projectId) => {
   const dateString = date.toISOString().split('T')[0]
   const dateEncoded = dateString.replaceAll('-', '%2F')
 
@@ -41,6 +41,23 @@ const fetchData = async (date, projectId) => {
   }
 }
 
+const fetchFaviconUrl = async (projectId) => {
+  var faviconUrl = 'https://i.gyazo.com/5f93e65a3b979ae5333aca4f32600611.png'
+  try {
+    const res = await axios.get(
+      `https://scrapbox.io/api/projects/${projectId}/`
+    )
+    if (res.data.image) {
+      faviconUrl = res.data.image
+    }
+  } catch (error) {}
+  fs.writeFileSync(
+    path.join(process.cwd(), 'contents', `${projectId}_favicon_url.txt`),
+    faviconUrl
+  )
+}
+
 module.exports = {
-  fetchData: fetchData,
+  fetchPage: fetchPage,
+  fetchFaviconUrl: fetchFaviconUrl,
 }

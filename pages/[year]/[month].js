@@ -11,16 +11,7 @@ export default function Home({ contents, year, month, monthList }) {
           <a href={`#${content.date.slice(8)}`} className="date-link">
             <h2>{content.date}</h2>
           </a>
-          {content.projects.map(({ projectId, diary }, index) => (
-            <div key={`diary-${content.date}-${projectId}`}>
-              <Diary
-                key={`diary-${content.date}-${projectId}`}
-                projectId={projectId}
-                diary={diary}
-              />
-              {index !== content.projects.length - 1 && <hr />}
-            </div>
-          ))}
+          <Diary date={content.date} projects={content.projects} />
         </div>
       ))}
     </Layout>

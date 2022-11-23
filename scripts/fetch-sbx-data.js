@@ -17,10 +17,11 @@ const sbxConfig = require('../sbxd.config')
     )
     bar.start(dayDiff, 0)
     for (const i of Array(dayDiff).keys()) {
-      await utils.fetchData(date, projectId)
+      await utils.fetchPage(date, projectId)
       date.setDate(date.getDate() - 1)
       bar.update(i + 1)
     }
     bar.stop()
+    await utils.fetchFaviconUrl(projectId)
   }
 })()
