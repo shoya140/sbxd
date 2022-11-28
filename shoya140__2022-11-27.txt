@@ -1,3 +1,7 @@
  疲労で今週末も横になってた...
  	日曜日の22時くらいから行動できるようになった
   とりあえず明日までの仕事を[終わらせる]します
+	[Heroku]で動かしているサービスを[render]に移した
+		例えば[Dominion Builder]のバックエンド ([WebSocket]のシグナリング)
+		[Procfile.backend https://github.com/shoya140/dominion-builder/blob/fc907eb7b92101ffdcdf5780497e698ce0557ead/Procfile.backend]の内容をStart Commandに登録するだけで完了。簡単！
+		[https://gyazo.com/86b0b98ddc4a97a17e349861e4265faa]
