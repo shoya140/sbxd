@@ -1,0 +1,5 @@
+	今週から特に寒そう！
+		[https://gyazo.com/37e0954cf0b548c1f1bc50485818777a]
+ 絵文字をScrapboxのアイコン記法的に使いたくてショートカットキーを設定した
+		`Ctrl+O`でテキストエリアに🐑がペーストされるように
+	 [https://gyazo.com/cd9c31b4cace8832756a9c3db2604a6b]
