@@ -1,0 +1,8 @@
+ https://shoya.io の接続障害
+ 	[/villagepump/shoya140#6398e2411280f000002383e3]
+  	> 2022-12-14 05:36:23 サイト落ちてる？
+   > 06:49:37 つながった
+		調べてみて、[Vercel]由来の可能性があると思った
+			[https://www.vercel-status.com/ Vercel Status] Dec 13, 2022 Elevated Errors in the Edge Network
+		ioドメインの障害も疑ったけど、scrapbox.ioは繋がってるわけだしな〜
+		関係があるか分からないけど、[Dropbox]も12/12にダウンしていた
