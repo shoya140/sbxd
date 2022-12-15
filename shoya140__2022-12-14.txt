@@ -6,3 +6,5 @@
 			[https://www.vercel-status.com/ Vercel Status] Dec 13, 2022 Elevated Errors in the Edge Network
 		ioドメインの障害も疑ったけど、scrapbox.ioは繋がってるわけだしな〜
 		関係があるか分からないけど、[Dropbox]も12/12にダウンしていた
+ [https://www.apple.com/newsroom/2022/12/apple-launches-freeform-a-powerful-new-app-designed-for-creative-collaboration/ Apple launches Freeform: a powerful new app designed for creative collaboration - Apple]
+		日本語だと[フリーボード https://www.apple.com/jp/newsroom/2022/12/apple-launches-freeform-a-powerful-new-app-designed-for-creative-collaboration/]。なぜ変えた...？
