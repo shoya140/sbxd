@@ -7,3 +7,8 @@
 		室内のほうが寒かったりすることがある
 		外に出たときに「暖かい！」と感じる
 		冬なのに春の訪れのような錯覚が起きて面白い
+	[Stable Diffusion]をApple Deviceで実行するには
+ 	[https://machinelearning.apple.com/research/stable-diffusion-coreml-apple-silicon Stable Diffusion with Core ML on Apple Silicon - Apple Machine Learning Research]
+ 		> Today, we are excited to release optimizations to [Core ML] for Stable Diffusion in macOS 13.1 and iOS 16.2, along with code to get started with deploying to [Apple Silicon] devices.
+ 		[https://github.com/apple/ml-stable-diffusion GitHub - apple/ml-stable-diffusion]
+  GUIのアプリだと[https://diffusionbee.com DiffusionBee]や[https://ixeau.com/ai-photo/ AI Photo]などがあるらしい
