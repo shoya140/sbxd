@@ -3,9 +3,6 @@
 		睡眠データを可視化する[iPhoneアプリ]
 		夏頃に[Swift]と[HealthKit]のキャッチアップを目的に作っていた
 		[iOS 16]から使える睡眠ステージと[Swift Charts]を使っている
-		「このアプリならではの機能」を入れられないか考えたい
-			[https://gyazo.com/8337f4fa80284faad98f019524261631][https://gyazo.com/b818429600e0b9a95240e6ec378de1ac][https://gyazo.com/ddbb93c50f064bd618225f3804007c27]
-			↑既存の睡眠計測・可視化アプリ ([Health], [Pillow], [Oura])
 	先週に比べて気温が10℃近く高い
 		室内のほうが寒かったりすることがある
 		外に出たときに「暖かい！」と感じる
