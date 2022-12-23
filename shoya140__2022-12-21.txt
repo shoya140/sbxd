@@ -1,5 +1,5 @@
  [SleepHistory]の開発を再開した
- 	[https://gyazo.com/0b347f2ec97a5d5469eebd440682f130][https://gyazo.com/168e76cc2ad918280d040aadf05a4676]
+ 	[https://gyazo.com/7570642a8fcce06467c433b9ea0cb5a2]
 		睡眠データを可視化する[iPhoneアプリ]
 		夏頃に[Swift]と[HealthKit]のキャッチアップを目的に作っていた
 		[iOS 16]から使える睡眠ステージと[Swift Charts]を使っている
