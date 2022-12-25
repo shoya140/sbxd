@@ -1,0 +1,17 @@
+ ドイツでは街が一年で最も静かな時期
+ 	レストランは今日から閉まっているイメージだったけどまだ営業していた
+ [https://gist.github.com/beader/8779526f466e373a9085338742919d9b Infinite Scrollable Bar Chart using Swift Charts]
+ 	[Health.app]の挙動を[Swift Chart]で再現している
+ 		スクロールするとデータを読み込んで軸も変動する
+ 		スクロールの速さに応じて日/週単位でスナップする
+ 	とても参考になった
+ 結束バンド「[結束バンド https://bocchi.rocks/music/cd.html]」
+ 	CDの発売日よりも先に聴けるようになっていた
+		[Apple Music]でも良かったんだけど、リファレンス曲として使いたくて[iTunes]で購入
+	[https://support.apple.com/en-us/HT210751 How to get your Apple Music Replay - Apple Support]
+		[https://gyazo.com/47ef8091b8f82d461a89b59cb9d9d2d2]
+		Apple Musicで自分が2022年に一番聴いた曲は「[カラカラ]」らしい...本当に！？
+		リリースされたのが10月末にも関わらず一年を通じて最も再生されたのすごい
+		[Music.app]に入れているけどApple Musicで配信されていない曲はカウントされてなさそう
+ [https://podcasts.apple.com/jp/podcast/116-新エンターテイメント-確認作業/id1542436827?i=1000591150308 ‎Image Cast #116 新エンターテイメント「確認作業」]
+ 	> [クリスマス]、[極限環境での嗜好品]、アンチフラッシュモブ、マインドコントロールを前提とした[プレゼント]などについて話しました。お正月に向けて仕上がっていきます。
