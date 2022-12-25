@@ -1,5 +1,9 @@
 # sbxd: sxrapbox-diary
 
+sbxd is software that creates a website from Scrapbox diary. The diary, in this context, is a single piece of text beginning with a user icon on a page named in a specific format such as YYYY/MM/DD. For example, [this page](https://diary.shoya.io/2022/11#22) was generated with contents in [villagepump/2022/11/22](https://scrapbox.io/villagepump/2022%2F11%2F22) and [shoya140/2022/11/22](https://scrapbox.io/shoya140/2022%2F11%2F22).
+
+## How to use
+
 Update `sbxd.config.js` with your information.
 
 ```
