@@ -1,0 +1,28 @@
+ [Empatica] [Embrace Plus]が届いた
+ 	[https://www.empatica.com/assets/images/embraceplus/embraceplus_closed_side_hero-lg-xhdpi.png]
+ 	[E4 Wristband]の後継デバイス
+ 	全体的にparticipant-friendlyになった印象
+ 		充電時以外はずっと身に付けておく設計
+ 		Participant (実験参加者) 用のマニュアルがアプリ・Web上にある
+ 		スマートフォンアプリ経由でデータが自動的にサーバへ送られる
+ 		アプリを閉じて開いたりデバイスから離れて近づいたりすると自動的に再接続が行われる
+ 	2022年12月時点でののトラブルシューティング
+ 		[EDA]含むRaw dataはどこにある？
+ 			アプリやPotalでは見れなくなった
+ 			対処法: [https://s3.amazonaws.com/box.empatica.com/manuals/ehmp/careportal/data_access/v1.4e/en/Data%20Access%20Documentation_PRSPEC-2%20REV8.0.pdf Data Access]を読む
+ 				[Care Lab Portal] > Data Access Keysの情報で[Amazon S3]からダウンロードする
+	 			macOSの場合は[Cyberduck]を使うのが簡単
+ 		電源を切ることができない
+ 			身に付けていない間もLED照射・データ記録が行われ続ける
+ 			対処法: ？？？
+ 		デバイスにデータが残っている状態でログアウト->別ユーザでログインすると、前のユーザのデータが次のユーザのデータとして記録されてしまう
+ 			Multiple short-lab sessions (一台のデバイスで複数人のデータを取る実験) で起こりがち
+ 			対処法: [Care Lab]アプリ > ︙ > AdvancedのData Stored (in E+) が0になるまでログアウトを待つ
+ 		Sensor modeの切替方法がマニュアルに書かれておらず分からない
+    使用するセンサの種類やサンプリングレートを変えられるらしい
+   	対処法: Talk to our teamとのこと
+ 	主にソフトウェア面で見切り発車感がある
+ 		Real-time monitoringやSDKはcomming soonとのこと
+ [Outer Wilds]をクリアした
+		[Outer Wilds (クリア後の感想)]
+		[Apple Music]でサウンドトラックを聴いてる
