@@ -1,0 +1,8 @@
+ [InstaChord]が届いた！
+ 　日本在住の僕と変わらないじゃん！[nishio.icon]
+		なぜか配送予定日より10日も早く着いた[shoya140.icon]
+ 　[https://gyazo.com/a8f2c6b15fbbf3e2f5a8ee3a4b325895]
+ [ウェブブラウザ]でファームウェアップデートできるのが今風でいいな〜
+ 	[https://instachord.com/instruction/howto_update/ インスタコードのアップデート – インスタコード/InstaChord]
+ 	専用の[ネイティブアプリ]を開発/インストールする必要がない
+ 	[WebUSB API]だろうか
