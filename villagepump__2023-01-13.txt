@@ -9,3 +9,6 @@
  	[プレッシャー]の大きさは違うかもしれないけれど、その考え方、分かるなぁ
  >[https://twitter.com/tweetbot/status/1613763746437947394?s=20&t=utcRPxW8M3-suCulTqs_VA @tweetbot]: Tweetbot and other clients are experiencing problems logging in to Twitter. We’ve reached out to Twitter for more details, but haven’t heard back. We’re hoping this is just a temporary glitch and will let you know more as soon as we know more.
  	大変そう...
+ 	[Tweetbot]以外の多数の[サードパーティーアプリ]でも同様のトラブルが発生している模様[hatori.icon]
+  　有料の[Twitter Blue]が開始されたことと関係がある？
+  　[https://www.itmedia.co.jp/news/articles/2301/13/news129.html Twitterのサードパーティーアプリでトラブル相次ぐ　「非公式アプリを締め出しか」と疑う声も - ITmedia NEWS]
