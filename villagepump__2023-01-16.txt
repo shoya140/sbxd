@@ -6,5 +6,6 @@
 	[Ivory]が気になっている
 		[https://tapbots.com/ivory/ Ivory for iOS]
 		[Tapbots] ([Tweetbot]の開発チーム) が開発中の[Mastodon]クライアント
+		 それは気になる[基素.icon]
 		IvoryがリリースされたらまたMastodonのアカウントを作ってみよう
 		少し触るだけで続けないかも。SNSやりたい気持ちが失われてしまった
