@@ -2,3 +2,12 @@
  	[https://gyazo.com/829a0410decfb243ee90fa6ffdb74cc7]
 		レイブンクロー、納得感ある
 		これはfew-shot learningに近いけど、モデル自体をfine-tuningしてみたい
+ https://tapbots.social/@ivory/109745562673796762
+ 	> Say Hello to [Ivory]. We are now available to all on Apple’s App Store! We have launched as “Early Access” because we still have a lot of exciting plans ahead of that will make Ivory even better. Go download it, try it free for 7 days, and experience it for yourself! https://apps.apple.com/us/app/ivory-for-mastodon-by-tapbots/id6444602274
+ 	> [https://gyazo.com/fe163fe3eabdb925ac705c3fdd397cca]
+  入れてみよう[基素.icon]
+  いい感じ[shoya140.icon]
+  	[https://gyazo.com/24932ceb903a0100a5134a3de9659457][https://gyazo.com/426fac3324c20161aea59a669aee271d][https://gyazo.com/b2e262889532629dc9658f42e2967d1c]
+			`@shoya140@mstdn.jp`のアカウントがまだあったのでそれでログイン
+			[Tweetbot]のUIが再現されている
+			月額300円払う価値を感じるかどうかは人によりそう
