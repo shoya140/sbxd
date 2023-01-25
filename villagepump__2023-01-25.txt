@@ -1,0 +1,4 @@
+ GPT-3で[組分け帽子]を作る ([並列日記#63cfeb5de1daa50000ae95fd])、ありそうでなかった
+ 	[https://gyazo.com/829a0410decfb243ee90fa6ffdb74cc7]
+		レイブンクロー、納得感ある
+		これはfew-shot learningに近いけど、モデル自体をfine-tuningしてみたい
