@@ -1,0 +1,16 @@
+ 睡眠時間が足りない
+ 	[https://gyazo.com/167f9d8d5ff8caf67d10ac03888dd3da]
+		0時には横になってるんだけど、[入眠潜時] (眠りに入るまでの時間) が2時間以上ある
+		1-2時間おきに目が覚める
+	[井戸端依存症]を克服するために[UserCSS]で左上のメニュー上の井戸端へのリンクを消してみた
+		code:style.css
+   li a[href="/villagepump/"] {
+   	display: none !important;
+   }
+		目に入るとつい開いてしまうので
+		ブラウザのブックマークも消した
+		1クリックでは開けないようになった
+	[https://ja.stateofaiguides.com/20230218-s4-successor/ 次世代のトランスフォーマーを目指して: 状態空間モデル S4 の発展]
+ 	> 状態空間モデルに基づき、高性能・高効率に長い系列を処理できることで話題になった S4 の後続研究が続々と登場しています。本記事では、次世代のトランスフォーマーとして有望視される S4 の発展的な研究を厳選して解説します。
+		11月に一時帰国したときに教えていただいた[S4] ([Structured State Space Sequence]) をキャッチアップしたい
+		[Efficiently Modeling Long Sequences with Structured State Spaces https://arxiv.org/abs/2111.00396]
