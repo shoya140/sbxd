@@ -1,0 +1,27 @@
+ [https://applech2.com/archives/20230225-diffusers-for-mac-support-apple-neural-engine.html テキストから画像を生成できるオープンソースのStable Diffusionアプリ「Diffusers for Mac」がGPU/Neural Engine選択に対応し、Apple Silicon Macでは生成速度が最大2倍に。]
+ 	[Diffusers for Mac]が[Apple Neural Engine]をサポート
+ 		手元の環境 ([M2 MacBook Air] 24GB RAM) だと v2.1 を1枚10秒で生成できた。これはすごい
+ 		これまでにもMac用の[Stable Diffusion] GUIアプリは複数あったが、1枚あたり20秒以上かかっていた
+ 		使ってすごいと思ったということは、自分の中で20秒と10秒の間のどこかに実用的かどうかの閾値がある
+ 		これだけ速いならCLIで使いたいな
+ 	[Core ML]でStable Diffusionを動かす方法は以前からあったけど、Apple Neural Engineは同じではないのか要調査
+ 		[https://machinelearning.apple.com/research/stable-diffusion-coreml-apple-silicon Stable Diffusion with Core ML on Apple Silicon - Apple Machine Learning Research]
+ 			[https://github.com/apple/ml-stable-diffusion GitHub - apple/ml-stable-diffusion: Stable Diffusion with Core ML on Apple Silicon]
+ 			これのベンチマークがGPU版Diffusers for Macとほぼ同じ
+			[https://applech2.com/archives/20220607-apple-silicon-m2.html Apple、CPUとGPUに加えNeural/Media Engineを強化し、最大24GBのメモリを搭載可能な第2世代Apple Silicon「Apple M2」を発表。]
+				Neural EngineはCPU/GPUとは[SoC]上の別のハードとして存在するのか、なるほど勘違いしていた
+				　へぇ～～[yosider.icon][基素.icon]
+				Neural Engineを使うためのAPIがあるはず？→[2023/02/26#63fb6fd4e1daa50000c2556e]
+ 		[https://huggingface.co/blog/fast-mac-diffusers Swift 🧨Diffusers - Fast Stable Diffusion for Mac]
+   	[https://github.com/huggingface/swift-coreml-diffusers GitHub - huggingface/swift-coreml-diffusers: Swift app demonstrating Core ML Stable Diffusion]
+    	オープンソースだった
+    	コード読んだほうが早そう！
+    	[https://github.com/huggingface/swift-coreml-diffusers/pull/28 Advanced Settings: ANE by pcuenca · Pull Request #28 · huggingface/swift-coreml-diffusers · GitHub]
+ 		[https://huggingface.co/blog/diffusers-coreml Using Stable Diffusion with Core ML on Apple Silicon]
+   	> Once you have downloaded a snapshot of the model, the easiest way to run inference would be to use Apple's Python script.
+   	> $ python -m python_coreml_stable_diffusion.pipeline --prompt "a photo of an astronaut riding a horse on mars" -i models/coreml-stable-diffusion-v1-4_original_packages -o </path/to/output/image> --compute-unit ALL --seed 93
+   	> <output-mlpackages-directory> should point to the checkpoint you downloaded in the step above, and --compute-unit indicates the hardware you want to allow for inference. It must be one of the following options: ALL, CPU_AND_GPU, CPU_ONLY, CPU_AND_NE. You may also provide an optional output path, and a seed for reproducibility.
+   		Core MLが扱える`.mlmodel`に変換するときに`--compute-unit`で`CPU_AND_NE`を指定する
+ 		[https://machinelearning.apple.com/research/neural-engine-transformers Deploying Transformers on the Apple Neural Engine - Apple Machine Learning Research]
+   	[https://gyazo.com/829a6ce40a3de706d8f0722249019e8e]
+ 			タスクがGPUとNeural Engineのどちらで実行されているかは[Xcode]で確認することができる
