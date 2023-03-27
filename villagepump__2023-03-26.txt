@@ -13,6 +13,8 @@
 			外から2列目で止まる可能性が高いような印象がある
 			中心から途切れにくいように伸ばして届く範囲で稼ぐ
 	家の近くを[散歩]してきた
-		[https://gyazo.com/5fc51e7f52abd93e02d2c354e37b9d6f][https://gyazo.com/1603d92b8eb249abc9fd6b6b710567a5][https://gyazo.com/c40b4d1d2b653ab94296aa430f43515b][https://gyazo.com/f2a2b0353e6955f3e9c4156f266dc4f9]
-		[サムネイル権]が手に入ったので乱用してみる (？)
+		[https://gyazo.com/5fc51e7f52abd93e02d2c354e37b9d6f][https://gyazo.com/1603d92b8eb249abc9fd6b6b710567a5][https://gyazo.com/e54458c6af9ded4e512c8d003555003e][https://gyazo.com/f2a2b0353e6955f3e9c4156f266dc4f9]
+		[サムネイル権]が手に入ったので行使してみる (？)
 		[量子サムネイル]になっていたの面白かった
+ [https://voluntas.medium.com/chatgpt-で何が変わったか-dd78c27e218b ChatGPT で何が変わったか. by V | Mar, 2023 | Medium]
+ 	なるほど
