@@ -1,0 +1,13 @@
+ [MacGPT]のInline Integrationが便利かも
+ 	[https://www.youtube.com/watch?v=8k0CA-Z4bAc]
+  アップデートでテキストフィールドを監視できるようになった
+  	動いた: [Notes.app], [TextEdit], [CotEditor], [自作のプレーンテキストエディタ https://shoya140.github.io/editor/]
+  	動かなかった: [VSCode], [Pages], [Google Docs], [Scrapbox]
+  デフォルトだと`:gpt プロンプト...`と書いて`Shift + Return`で実行
+	[https://parosky.hatenablog.com/entry/2023/03/27/214554 「文章を改善する」 - ぱろすけのブログ]
+ 	なるほど
+ 	自分も (↑のデモと矛盾するけど) ビジネス文書以外は自分の言葉で書きたいなと思う
+ 	 自分は"文章を自分で書くこと"にはあまりこだわりはないけど、"自分の文章を自分で選ぶこと"にはこだわりがあるかもしれない[blu3mo.icon]
+　　　　なので、ChatGPTが生成した文章を自分があり/なしと判断して選べるなら、どんどん使っていきたい気持ち[blu3mo.icon]
+			自分の場合は選んだ結果だとしても後から読み返したときに自身の思考に影響を与えそう[shoya140.icon]
+				良い効果もあるかも。ネガティブな表現を緩和させて大したことなかったなと思わせるとか

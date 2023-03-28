@@ -1,20 +1,27 @@
  今日から[サマータイム]！
  	ドイツ・日本間の[時差]が1時間減って7時間になった
 	[マラケシュ]が面白そう
-		[絨毯いらんかえ〜！！「じゅうたん」って読むんやけどいらんかえ〜！！！ - オモコロチャンネル https://www.youtube.com/watch?v=fywJy9bLWR8]
-		 [絨毯]って字よく見ると炎が入ってるんだな[yosider.icon]
-		  よく燃えそう
-		 毯＝毛＋炎であり、毛が炎のように毛羽立つさまに由来するらしい[hatori.icon]
-   　[https://www.ppckm.net/word-as-carpet じゅうたん・絨毯|言葉と漢字の定義｜ペルシャ絨毯の通販サイト【数寄の絨毯】]
-		[https://www.e-aidem.com/ch/jimocoro/entry/okemoto11 プロに聞く！ バランスゲームやボードゲームの本当のおすすめ12選 - ジモコロ]
-  戦略としては、中心で陣地を増やしてその端を踏ませて稼ぐのが有利だろうか
-			フィールドの大きさは7×7
-			一度中心部を取られると、皆外に向かいたがる
-			外から2列目で止まる可能性が高いような印象がある
-			中心から途切れにくいように伸ばして届く範囲で稼ぐ
+	　→[マラケシュ]
 	家の近くを[散歩]してきた
 		[https://gyazo.com/5fc51e7f52abd93e02d2c354e37b9d6f][https://gyazo.com/1603d92b8eb249abc9fd6b6b710567a5][https://gyazo.com/e54458c6af9ded4e512c8d003555003e][https://gyazo.com/f2a2b0353e6955f3e9c4156f266dc4f9]
 		[サムネイル権]が手に入ったので行使してみる (？)
 		[量子サムネイル]になっていたの面白かった
  [https://voluntas.medium.com/chatgpt-で何が変わったか-dd78c27e218b ChatGPT で何が変わったか. by V | Mar, 2023 | Medium]
  	なるほど
+ 	>開発スタイルが大幅に変わった ChatGPT を開いて不明な点はすぐ聞くスタイルになった、どう書けばいいのかということで悩むことが少なくなった
+ 	 わかる[基素.icon]
+ 	　ググっても結局挙動を調べ直すので、その手間がない
+ 	　一まではググった結果から自分のコードに変換が必要だけど、GPTは指定通りに書いてくれるからコピペするだけ
+		> 主に Go と TypeScript や W3C や IETF の仕様について聞く場合はほぼ ChatGPT Plus を利用している。間違いとかはどうせ公式ドキュメントを読めばいいので、正しさは求めておらず、きっかけを求めている。
+			熟練したプログラマは最初から完璧に動くコードを期待していないので、調べ直したり手直ししたりすることに対する抵抗がない。そのきっかけがあるだけで助かる[shoya140.icon]
+				今日読んだ[葬送のフリーレン] (10) にも似たようなことが描かれていた
+				[https://gyazo.com/da81ecf4a9aa7e6e8faaab8e877dfdd8]
+			　これも[基素.icon]
+  			> [@oshita_ml https://twitter.com/oshita_ml/status/1639909622869024769]: 「chatGPTを作ることができた秘訣は？」
+     >  「それは単純で7年間研究を重ねたからです。」
+     >  ちょっとサムさんのファンになっちゃう。
+     >  https://txbiz.tv-tokyo.co.jp/wbs/vod/post_270863?code=1bzEy8tQhqjgQJBi
+     >  [https://pbs.twimg.com/media/FsIg3MIaQAAgLF9.jpg] [https://pbs.twimg.com/media/FsIg35XaQAA8SB6.jpg]
+		>大きく変わったのは Google で検索した際に出てくる「広告がたくさん貼り付けられていて怪しげなサイト」を目にしなくて良くなったことだ。
+			ここも嬉しいポイント[kidooom.icon][shoya140.icon]
+   Googleにとっては嬉しくないポイントだ[基素.icon]
