@@ -1,0 +1,24 @@
+	[まずは使ってみる]のいいなと思って、[ChatGPT]をベースにした[Slack Bot]を作ってみた
+	  [:igyo:.icon][takker.icon][issac.icon][kidooom.icon]
+	  discord botもほしいな～([yuyasurarin.icon]さんあたりを見つつ)
+	  クレカがないので色々不便[yuyasurarin.icon]
+	 [https://github.com/shoya140/chatgpt-slack-bot GitHub - shoya140/chatgpt-slack-bot]
+	 	工夫点としてChatGPTの回答をstreamで受け取ってBotの投稿を逐次上書きしている
+	 	1トークンごとに上書きするとSlackのレートに達してしまったのでひとまず10トークンごと
+	 後でREADMEをちゃんと書くけど、使うための手順としては、
+ 		[https://slack.dev/bolt-python/ja-jp/tutorial/getting-started Slack | Bolt for Python]に従ってSlack Botの設定をする・APIトークンを手に入れる
+ 		OpenAIのAPIキーを手に入れる
+ 		環境変数にAPIトークン/キーとBotの役割をセットする
+ 			Botの役割はメンションで変えられるようにした
+ 	deploy先は[Heroku]かな[takker.icon]
+			です！Herokuを想定した設定ファイルを入れています[shoya140.icon]
+				[Socket Mode https://api.slack.com/apis/connections/socket]を使っているのでSlackの設定を変更することなくローカルPCなどで試すことも可能
+				自分はとりあえずHerokuの[Eco dyno]で走らせている
+				Herokuの30秒タイムアウトで死んでしまうことが…[nishio.icon]
+				30秒以上かかっても大丈夫なようにWorker dynoを使っています[shoya140.icon]
+				なるほど！[nishio.icon]
+ [Helpfeel Tech Hour vol.2 「GPT-3編」]が面白かった！
+  SNSでの扱われ方を見てこれまではChatGPTの組み込みに対して少し冷めた印象を持っていた
+  	[プロ驚き屋]のバズに利用されてる感じ見るとちょっと冷めちゃうのも分かる[kidooom.icon]
+ 　  いい言葉が発明された[nishio.icon]
+  ちゃんと開発したらこんなに面白いものが作れるんだという気付きを与えてくれた
