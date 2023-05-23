@@ -1,0 +1,15 @@
+ [https://misreading.chat/2023/05/22/115-constitutional-ai-harmlessness-from-ai-feedback/ #115: Constitutional AI: Harmlessness from AI Feedback – Misreading Chat]
+ 	[Misreading Chat]
+ 	> LLM をチャットボットに仕立てる [finetuning] について森田が読みました。
+ 	 [Fine-tuning]
+ 前々から気になっていた[あすけん]を始めてみた
+ 	[https://gyazo.com/401932c444ea041da21a56cf0fdb4be9][https://gyazo.com/8dd1ef89cbccd2ce0e27db7a1f97c466]
+ 		43点！
+ 		でも、[現状把握ができたのでハナマル]です！とのこと
+		[https://gyazo.com/b4ce322603a52ddc3fd2249fbf3fd2f4][https://gyazo.com/ecfb83a121a3056e41720d540e35240e]
+ 		[HealthKit]から[歩数]・[睡眠]・[血圧]・[体重]・[体脂肪率]を取得している
+			[消費カロリー]を直接取りに行かないのはユーザー環境による差異を減らすためだろうか
+			HealthKit連携の体重計が欲しくなってきた
+			あすけん→HealthKitへ食事データの書き込みが行われるのがありがたい
+				全部23:59として書き込む (食事の度に上書きする？) の賢い
+				途中でタイムゾーンを変えたらどうなる...？
