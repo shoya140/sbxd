@@ -1,1 +1,18 @@
- やることが多くて久々に徹夜してしまった
+ やることが多くて[久々に徹夜]してしまった
+ [https://cloudgaming.mb.softbank.jp/news/20230703/ 【重要】プレミアムプラン月額料金値下げのお知らせ｜GeForce NOW Powered by SoftBank]
+ 	[GeForce NOW]、月額料金を1,980円から550円へ値下げ
+ 	　GamePassにジリジリ負けてしまうからだろうか…[mtane0412.icon]
+ 	一時期[Among Us]がクロスリージョンで遊べなくなったときに使っていた
+	[クリーニング]の受け取りに行ってきた
+		今回もいつもの方が受付してくださった
+	[Quarto]という[ボードゲーム]を教えてもらった
+		[https://ja.boardgamearena.com/gamepanel?game=quarto Quarto - Board Game Arena]
+		4x4のマス目に交互にコマを置きあって、縦/横/斜めどれかに共通の特徴を持つコマを1列並べたほうが勝ち
+		特徴は色・形・大きさ・模様
+		置くコマは相手が指定する (←ここが他のゲームと大きく違う点)
+			自分が渡したコマであがられるとめちゃくちゃ悔しい
+  [家に一個は置いときたいゲーム][issac.icon]
+  	+1; 物理版を一個買いました[shoya140.icon]
+  	立体感があるぶん画面で遊ぶのと体験 (共通の特徴に気がつくか) が少し異なる気がする
+ 	[モンテカルロ木探索で作るクアルト専用対戦AI https://qiita.com/keyhole0/items/326b4d0cc14bd09cc8ae] 👀[shoya140.icon]
+ 		https://keyhole0.github.io/Ktuarto/ 対戦AIと練習できる
