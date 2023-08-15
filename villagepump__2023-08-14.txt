@@ -1,0 +1,3 @@
+ [$ \textcolor{473939}{\rule{20pt}{20pt}}\textcolor{605F92}{\rule{20pt}{20pt}} \\[-3.5pt]\textcolor{B5B5C5}{\rule{20pt}{20pt}}\textcolor{434261}{\rule{20pt}{20pt}} ]
+ アイコンを更新
+ [井戸端日記帳]がTeX記法をサポートできてなかったことが判明
