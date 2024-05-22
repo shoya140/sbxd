@@ -1,2 +1,18 @@
- [Scrapbox] → [Helpfeel Consense]
-		[https://gyazo.com/e30ec9b3e442c09653d8fa7e4ffc2c62]
+ [ScrapboxがCosenseに名称変更]
+ 　それはそうと、shokaiさんのアカウントを久々にみて思ったのだが[takker.icon]
+  　[もうScrapbox Drinkupもインターンもやらなそうな気がしてきた]
+ 「[マックがやっと売れました！]」という本を読んだ。面白かった
+ 	https://www.amazon.co.jp/マックがやっと売れました%EF%BC%81-OnDeck-Books-石川-雅康/dp/4295602922
+ 	[https://gyazo.com/0a40163df8804489ce2a8b10bf6a0bb8]
+		営業チーム向けに販売マニュアルを作成したり合宿を開いたりしている
+			> [https://gyazo.com/f5291c81ce4e38d12558d78d062d0909]
+			この表を5分以内に作れるということが当時はすごかった、なるほど
+  [ExcelがMacintoshのキラーアプリだった]のは知らなかった
+  	> Macintosh 512K、Macintosh Plus、Macintosh SE、Macintosh IIにおける、Excel（1985年9月から1987年9月まで。10月にWindows向けがリリースされた）
+  	> https://ja.wikipedia.org/wiki/キラーアプリケーション
+  	初めてPCに触れたときにはWord, Excel, PowerPointが当たり前に存在していた自分にとっては新鮮な話だ
+  	　ひえっ、今でいうGUIより表計算ソフトの方が先にあったのを見てない世代か[nishio.icon]
+  	　　https://ja.m.wikipedia.org/wiki/Lotus_1-2-3
+  	　　僕は父親が真っ黒の画面で表計算を試してるのを子供の頃に見た
+  	　中学校の先生がMS-DOSの一太郎を使っていたな・・[inajob.icon]
+		[HyperCard]の話も出てきた
