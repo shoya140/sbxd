@@ -1,0 +1,9 @@
+ [WWDC24]ライブで観た
+ 	[https://developer.apple.com/whats-new/ What’s new for Apple developers - Apple Developer]
+  　当然のようにAI全力[基素.icon]
+　　　　文字の合成 Genmoji
+　　　　ライティングツールがOSにネイティブに乗るのはよさそう
+　　　　　いきなり国民の文章能力が跳ね上がる予感
+　　　　　でも大体英語だけ先行ローンチで、日本に来るのはいつかな？
+　　　　　> [Apple Intelligence]はユーザーに無料で提供され、今年の秋に[iOS 18]、[iPadOS 18]、[macOS Sequoia]の一部としてベータ版が英語（米国）で利用可能になります。一部の機能、ソフトウェアプラットフォーム、追加言語は来年中に公開される予定です。Apple Intelligenceは、iPhone 15 Pro、iPhone 15 Pro Max、M1以降を搭載したiPadとMacで、Siriとデバイスの言語を英語（米国）に設定している場合に利用できるようになります。詳しくは、apple.com/apple-intelligenceをご覧ください。
+     来年中らしいですね[shoya140.icon]
