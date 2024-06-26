@@ -1,0 +1,27 @@
+ [Google Search Consoleで知らないユーザーがオーナーに追加された]
+ 	[https://gyazo.com/151cba6a4c3d303e3a0d2f994b149e2d]
+		なんだこれ？？？
+		`zaskianyedot@gmail.com`は知らないメールアドレス
+		Don't know this personをクリックしてもこのユーザは表示されず、報告の仕方も分からない
+		先日のアカウントが凍結された件も含め、何か巻き込まれてるんだろうか...？
+		https://editor.shoya.io/ (アクセス注意) に謎サイトができてるんだけど、他人のドメインのサブドメインで勝手にWebサイト立ち上げるのは不可能ですよね...？
+			shoya.ioは僕が管理しているドメイン
+			[https://gyazo.com/4f5e8d6b2b1c7e29f9228460fccb67ff][https://gyazo.com/8d124b3f1165d584ad9fb41f8565c661]
+			2024.05.18付けでGoogle Domainsから[Squarespace]に移管され、shoya140.github.ioに向いているように見える
+ 		code:dig
+ 		 $ dig editor.shoya.io +nostats +nocomments +nocmd
+    
+    ; <<>> DiG 9.10.6 <<>> editor.shoya.io +nostats +nocomments +nocmd
+    ;; global options: +cmd
+    ;editor.shoya.io.		IN	A
+    editor.shoya.io.	462	IN	CNAME	shoya140.github.io.
+    shoya140.github.io.	2862	IN	A	185.199.111.153
+    shoya140.github.io.	2862	IN	A	185.199.108.153
+    shoya140.github.io.	2862	IN	A	185.199.109.153
+    shoya140.github.io.	2862	IN	A	185.199.110.153
+		[https://github.com/orgs/community/discussions/102835 My github pages seem to have been hacked, but I can't figure out how. · community · Discussion #102835 · GitHub]
+			> Just yesterday I got several notifications stating that an additional owner was added to google search console. However, on clicking Manage Users, there was no new users added. Today I found that www.gopinath.org was being served a different page when connected.
+			これかも。状況的には同じ
+  [https://github.com/yudhasany/b GitHub - yudhasany/b]
+  	いた！こいつが犯人だ
+  	[https://gyazo.com/30dd7d768cfbb90e008a025700ce048c][https://gyazo.com/29823fa8ca273c9c3e4bb3b68d9b8394]
