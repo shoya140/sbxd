@@ -5,9 +5,10 @@
 		Don't know this personをクリックしてもこのユーザは表示されず、報告の仕方も分からない
 		先日のアカウントが凍結された件も含め、何か巻き込まれてるんだろうか...？
 		https://editor.shoya.io/ (アクセス注意) に謎サイトができてるんだけど、他人のドメインのサブドメインで勝手にWebサイト立ち上げるのは不可能ですよね...？
+				2024.06.26追記：取り急ぎ`editor.shoya.io`のCNAMEを切ってサイトには繋がらないようにした
 			shoya.ioは僕が管理しているドメイン
 			[https://gyazo.com/4f5e8d6b2b1c7e29f9228460fccb67ff][https://gyazo.com/8d124b3f1165d584ad9fb41f8565c661]
-			2024.05.18付けでGoogle Domainsから[Squarespace]に移管され、shoya140.github.ioに向いているように見える
+			2024.05.18付けで[Google Domains]から[Squarespace]に移管され、shoya140.github.ioに向いているように見える
  		code:dig
  		 $ dig editor.shoya.io +nostats +nocomments +nocmd
     

@@ -1,0 +1,14 @@
+ [https://goodpatch.com/blog/2023-02-mac-app-icon 【100回作って100回壊す？】Mac App Icon制作に初挑戦！半年間の軌跡と芽生えたデザインのスタンス｜Goodpatch Blog グッドパッチブログ]
+ 	>表現の幅を広げるために、このプロジェクト以外のApp Iconを自主制作としてたくさん作り始めます。世の中の全てがアプリアイコンに見えてきたり、夢の中でもデザインをしていたりしました。
+  > この状態は特にゴールもなくただアイデアを発散している状態でしたが、この状態を長く作れたのはかなりクオリティに寄与したんじゃないかと思います。[あらゆるチャンスを捨てないプロセスも時には重要ですし、表現という単一のものを突き詰める時間もクリエイターにとって重要]だと考えています。
+  	良い
+ 	> 初めて挑戦することでも、焦らないで取り組むことが重要です。「今すぐにうまくなれる方法」や、30minの動画に詰め込まれているTIPSは誰もが等しく、簡単に獲得できるスキルです。だからこそ、探究を大事にしたいと考えています。[答えのない深い沼に突入し、ただ理由もなく表現を追い求めるテーマがある]と私というクリエイターは常に幸せです。
+ 		なるほど
+ 	流れで [macOS App Icon Book], [iOS App Icon Book]を買った
+ 		[https://www.appiconbook.com/ The App Icon Book]
+	[https://research.google/blog/advancing-personal-health-and-wellness-insights-with-ai/ Advancing personal health and wellness insights with AI]
+ 	あとでしっかり読みたい
+	[https://research.google/blog/multimodal-medical-ai/ Multimodal medical AI]
+ 	> [https://i.gyazo.com/0658c30cab1c3ac0662de7ff25de4fa1.gif]
+ 	> Our approach to grafting a model works by training a medical information adapter that maps the output of an existing or refined image encoder into an LLM-understandable form.
+ 	このgif分かりやすくて良い。参考にしたい
