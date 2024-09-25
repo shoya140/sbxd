@@ -1,0 +1,5 @@
+	[https://applech2.com/archives/macos-15-sequoia-support-control-return-contextual-menu.html macOS 15 SequoiaではFinderやテキストエディットなどで「Control + Return」キーを押すとコンテキストメニューが表示され、キーボードから手を離さずに操作できるように。 | AAPL Ch.]
+ 	便利！
+ [https://applech2.com/archives/macos-15-sequoia-and-ios-18-keep-downloaded-icloud-files.html macOS 15 SequoiaやiOS 18/iPadOS 18では、引き続きファイル・オンデマンド機能がデフォルトなもののiCloudからダウンロードしたファイルをデバイス上に保持しておくことが可能に。 | AAPL Ch.]
+ 	ありがたい！これまでは容量が減ると必要なファイルも勝手にキャッシュが消えてしまってたのが、[macOS Sequoia]からは優先順位付けできるようになっている
+ 	あとは選択型同期と ([.gitignore]みたいな) ルールベースの除外ができれば...
